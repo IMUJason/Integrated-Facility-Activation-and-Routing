@@ -1,0 +1,229 @@
+{
+  "name": "QZ-real-1",
+  "description": "Anonymized representative daily benchmark derived from retained Quzhou administrative records",
+  "horizon_label": "Representative daily dispatch planning",
+  "vehicle_capacity": 8,
+  "vehicle_fixed_cost": 38.0,
+  "transport_cost_per_km": 2.2,
+  "max_route_minutes": 720,
+  "day_start": 540,
+  "day_end": 1290,
+  "average_speed_kmph": 28.0,
+  "restricted_center": {
+    "x": 118.8729,
+    "y": 28.9417
+  },
+  "restricted_radius_km": 5.0,
+  "restricted_window": [
+    420,
+    1320
+  ],
+  "restricted_penalty_factor": 1.18,
+  "customers": [
+    {
+      "id": 0,
+      "name": "project_001_customer_001",
+      "x": 118.862154,
+      "y": 28.966447,
+      "demand": 6,
+      "earliest": 570,
+      "latest": 810,
+      "service_time": 72,
+      "hotspot": "project_001",
+      "hotspot_weight": 309.74349796773856,
+      "source_project": "project_001"
+    },
+    {
+      "id": 1,
+      "name": "project_002_customer_002",
+      "x": 118.805955,
+      "y": 28.955883,
+      "demand": 6,
+      "earliest": 570,
+      "latest": 810,
+      "service_time": 72,
+      "hotspot": "project_002",
+      "hotspot_weight": 283.6217963057926,
+      "source_project": "project_002"
+    },
+    {
+      "id": 2,
+      "name": "project_003_customer_003",
+      "x": 118.845207,
+      "y": 28.959428,
+      "demand": 5,
+      "earliest": 570,
+      "latest": 810,
+      "service_time": 63,
+      "hotspot": "project_003",
+      "hotspot_weight": 209.88084015300316,
+      "source_project": "project_003"
+    },
+    {
+      "id": 3,
+      "name": "project_004_customer_004",
+      "x": 118.845384,
+      "y": 28.93687,
+      "demand": 5,
+      "earliest": 570,
+      "latest": 810,
+      "service_time": 63,
+      "hotspot": "project_004",
+      "hotspot_weight": 204.60986014916062,
+      "source_project": "project_004"
+    },
+    {
+      "id": 4,
+      "name": "project_005_customer_005",
+      "x": 118.821329,
+      "y": 28.940434,
+      "demand": 4,
+      "earliest": 564,
+      "latest": 839,
+      "service_time": 54,
+      "hotspot": "project_005",
+      "hotspot_weight": 160.0341406166649,
+      "source_project": "project_005"
+    },
+    {
+      "id": 5,
+      "name": "project_006_customer_006",
+      "x": 118.848582,
+      "y": 28.946116,
+      "demand": 4,
+      "earliest": 561,
+      "latest": 852,
+      "service_time": 54,
+      "hotspot": "project_006",
+      "hotspot_weight": 142.25256943703548,
+      "source_project": "project_006"
+    },
+    {
+      "id": 6,
+      "name": "project_007_customer_007",
+      "x": 118.833587,
+      "y": 28.961734,
+      "demand": 2,
+      "earliest": 553,
+      "latest": 894,
+      "service_time": 36,
+      "hotspot": "project_007",
+      "hotspot_weight": 87.29134942727177,
+      "source_project": "project_007"
+    },
+    {
+      "id": 7,
+      "name": "project_008_customer_008",
+      "x": 118.843003,
+      "y": 28.953077,
+      "demand": 2,
+      "earliest": 552,
+      "latest": 897,
+      "service_time": 36,
+      "hotspot": "project_008",
+      "hotspot_weight": 82.59826612473027,
+      "source_project": "project_008"
+    },
+    {
+      "id": 8,
+      "name": "project_009_customer_009",
+      "x": 118.859253,
+      "y": 28.95996,
+      "demand": 1,
+      "earliest": 548,
+      "latest": 916,
+      "service_time": 27,
+      "hotspot": "project_009",
+      "hotspot_weight": 57.44815304187971,
+      "source_project": "project_009"
+    },
+    {
+      "id": 9,
+      "name": "project_010_customer_010",
+      "x": 118.831274,
+      "y": 28.950139,
+      "demand": 1,
+      "earliest": 548,
+      "latest": 916,
+      "service_time": 27,
+      "hotspot": "project_010",
+      "hotspot_weight": 56.90102777481419,
+      "source_project": "project_010"
+    },
+    {
+      "id": 10,
+      "name": "project_011_customer_011",
+      "x": 118.84782,
+      "y": 28.94654,
+      "demand": 1,
+      "earliest": 540,
+      "latest": 958,
+      "service_time": 27,
+      "hotspot": "project_011",
+      "hotspot_weight": 1.2802731249333192,
+      "source_project": "project_011"
+    }
+  ],
+  "facilities": [
+    {
+      "id": 0,
+      "name": "facility_001",
+      "x": 118.859307,
+      "y": 28.970229,
+      "capacity": 28,
+      "fixed_cost": 122.27,
+      "source_site": "facility_001",
+      "site_weight": 8.0
+    },
+    {
+      "id": 1,
+      "name": "facility_002",
+      "x": 118.845384,
+      "y": 28.93687,
+      "capacity": 18,
+      "fixed_cost": 105.22,
+      "source_site": "facility_002",
+      "site_weight": 2.0
+    },
+    {
+      "id": 2,
+      "name": "facility_003",
+      "x": 118.847743,
+      "y": 28.937336,
+      "capacity": 18,
+      "fixed_cost": 105.83,
+      "source_site": "facility_003",
+      "site_weight": 2.0
+    },
+    {
+      "id": 3,
+      "name": "facility_004",
+      "x": 118.866333,
+      "y": 28.957483,
+      "capacity": 18,
+      "fixed_cost": 108.0,
+      "source_site": "facility_004",
+      "site_weight": 1.0
+    },
+    {
+      "id": 4,
+      "name": "facility_005",
+      "x": 118.839677,
+      "y": 28.985343,
+      "capacity": 18,
+      "fixed_cost": 98.3,
+      "source_site": "facility_005",
+      "site_weight": 1.0
+    },
+    {
+      "id": 5,
+      "name": "facility_006",
+      "x": 118.843003,
+      "y": 28.953077,
+      "capacity": 18,
+      "fixed_cost": 104.17,
+      "source_site": "facility_006",
+      "site_weight": 1.0
+    }
+  ]
+}

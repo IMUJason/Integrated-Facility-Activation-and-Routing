@@ -1,0 +1,58 @@
+[
+  {
+    "name": "QZ-real-1",
+    "description": "Anonymized representative daily benchmark derived from retained Quzhou administrative records",
+    "customers": 11,
+    "facilities": 6,
+    "total_demand": 37,
+    "mean_demand": 3.364
+  },
+  {
+    "name": "QZ-exact-1",
+    "description": "Anonymized representative daily benchmark derived from retained Quzhou administrative records",
+    "customers": 12,
+    "facilities": 5,
+    "total_demand": 51,
+    "mean_demand": 4.25
+  },
+  {
+    "name": "QZ-small-1",
+    "description": "Anonymized representative daily benchmark derived from retained Quzhou administrative records",
+    "customers": 30,
+    "facilities": 6,
+    "total_demand": 120,
+    "mean_demand": 4.0
+  },
+  {
+    "name": "QZ-medium-1",
+    "description": "Anonymized representative daily benchmark derived from retained Quzhou administrative records",
+    "customers": 50,
+    "facilities": 8,
+    "total_demand": 203,
+    "mean_demand": 4.06
+  },
+  {
+    "name": "QZ-medium-2",
+    "description": "Anonymized representative daily benchmark derived from retained Quzhou administrative records",
+    "customers": 100,
+    "facilities": 10,
+    "total_demand": 421,
+    "mean_demand": 4.21
+  },
+  {
+    "name": "QZ-large-1",
+    "description": "Anonymized representative daily benchmark derived from retained Quzhou administrative records",
+    "customers": 200,
+    "facilities": 12,
+    "total_demand": 814,
+    "mean_demand": 4.07
+  },
+  {
+    "name": "QZ-xlarge-1",
+    "description": "Anonymized representative daily benchmark derived from retained Quzhou administrative records",
+    "customers": 500,
+    "facilities": 16,
+    "total_demand": 2057,
+    "mean_demand": 4.114
+  }
+]

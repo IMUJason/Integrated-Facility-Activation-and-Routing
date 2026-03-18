@@ -1,0 +1,4 @@
+Instance,LBBDObjective,AcceleratedObjective,LBBDTime,AcceleratedTime,LBBDIters,AcceleratedIters
+QZ-real-1,524.38,524.38,1.96,4.45,8,8
+QZ-medium-1,1980.46,1951.04,17.17,53.84,8,8
+QZ-medium-2,4107.59,4101.65,42.03,239.12,6,6

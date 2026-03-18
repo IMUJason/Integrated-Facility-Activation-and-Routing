@@ -1,0 +1,9 @@
+Instance,Algorithm,Iterations,Seeds,ExactObjective,BestObjective,GapPct,HitCount,BestSeed,BestOpenFacilities,BestRoutes,ExactReachableUnderDefaultCandidates,BlockedCustomerCount
+QZ-real-1,ALNS,280,30,479.586872,479.586872,0.0,30,0,2,5,True,2
+QZ-real-1,ALNS,1200,30,479.586872,479.586872,0.0,30,0,2,5,True,2
+QZ-real-1,RL-ALNS,350,12,479.586872,479.586872,0.0,12,0,2,5,True,2
+QZ-real-1,RL-ALNS,1200,12,479.586872,479.586872,0.0,12,0,2,5,True,2
+QZ-exact-1,ALNS,280,30,615.518025,615.518025,0.0,30,0,2,7,True,0
+QZ-exact-1,ALNS,1200,30,615.518025,615.518025,0.0,30,0,2,7,True,0
+QZ-exact-1,RL-ALNS,350,12,615.518025,615.518025,0.0,12,0,2,7,True,0
+QZ-exact-1,RL-ALNS,1200,12,615.518025,615.518025,0.0,12,0,2,7,True,0

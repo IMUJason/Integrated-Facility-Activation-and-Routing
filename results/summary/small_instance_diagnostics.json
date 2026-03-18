@@ -1,0 +1,1730 @@
+{
+  "QZ-real-1": {
+    "exact": {
+      "instance": "QZ-real-1",
+      "algorithm": "CPLEX-Exact",
+      "status": "OPTIMAL_SOLUTION",
+      "elapsed_seconds": 0.3002903461456299,
+      "best_metrics": {
+        "objective": 479.5868718962522,
+        "fixed_cost": 226.44,
+        "vehicle_cost": 190.0,
+        "transport_cost": 63.14687189625221,
+        "travel_distance": 28.70312358920555,
+        "penalty": 0.0,
+        "lateness": 0.0,
+        "vehicle_overload": 0.0,
+        "facility_overload": 0,
+        "overtime": 0.0,
+        "missing_count": 0,
+        "duplicate_count": 0,
+        "open_facilities": 2,
+        "routes": 5,
+        "feasible": true,
+        "route_records": [
+          {
+            "facility_id": 0,
+            "customers": [
+              0
+            ],
+            "distance": 1.0071002984695374,
+            "duration": 103.27326252020794,
+            "lateness": 0.0,
+            "wait": 28.726737479792064,
+            "load": 6,
+            "capacity_slack": 2,
+            "time_slack": 616.7267374797921
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              2,
+              6
+            ],
+            "distance": 5.6569802062490275,
+            "duration": 138.69395524135098,
+            "lateness": 0.0,
+            "wait": 25.389876719835456,
+            "load": 7,
+            "capacity_slack": 1,
+            "time_slack": 581.306044758649
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              8,
+              9,
+              1
+            ],
+            "distance": 12.050011631975895,
+            "duration": 160.60039397660591,
+            "lateness": 0.0,
+            "wait": 5.1126930966644295,
+            "load": 8,
+            "capacity_slack": 0,
+            "time_slack": 559.3996060233941
+          },
+          {
+            "facility_id": 5,
+            "customers": [
+              4,
+              5
+            ],
+            "distance": 6.2061016553648845,
+            "duration": 141.2837231433881,
+            "lateness": 0.0,
+            "wait": 17.591151814822638,
+            "load": 8,
+            "capacity_slack": 0,
+            "time_slack": 578.7162768566119
+          },
+          {
+            "facility_id": 5,
+            "customers": [
+              3,
+              10,
+              7
+            ],
+            "distance": 3.782929797146205,
+            "duration": 160.97107539081628,
+            "lateness": 0.0,
+            "wait": 25.405667189460814,
+            "load": 8,
+            "capacity_slack": 0,
+            "time_slack": 559.0289246091837
+          }
+        ],
+        "missing_customers": [],
+        "duplicate_customers": [],
+        "facility_usage": {
+          "0": 21,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 16
+        }
+      },
+      "best_solution": {
+        "routes": [
+          {
+            "facility_id": 0,
+            "customers": [
+              0
+            ]
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              2,
+              6
+            ]
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              8,
+              9,
+              1
+            ]
+          },
+          {
+            "facility_id": 5,
+            "customers": [
+              4,
+              5
+            ]
+          },
+          {
+            "facility_id": 5,
+            "customers": [
+              3,
+              10,
+              7
+            ]
+          }
+        ]
+      },
+      "route_pool_size": 768,
+      "selected_route_ids": [
+        "r_0_0",
+        "r_0_21",
+        "r_0_55",
+        "r_5_31",
+        "r_5_72"
+      ]
+    },
+    "current_candidate_reachability": {
+      "facility_limit": null,
+      "reachable": true,
+      "blocked_customer_count": 0,
+      "blocked_customers": []
+    },
+    "legacy_limit4_reachability": {
+      "facility_limit": 4,
+      "reachable": false,
+      "blocked_customer_count": 2,
+      "blocked_customers": [
+        {
+          "customer_id": 9,
+          "exact_facility_id": 0,
+          "rank": 5,
+          "nearest_facilities": [
+            5,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "customer_id": 1,
+          "exact_facility_id": 0,
+          "rank": 5,
+          "nearest_facilities": [
+            5,
+            1,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    "ALNS": {
+      "280": {
+        "iterations": 280,
+        "seeds": 30,
+        "best_objective": 479.5868718962522,
+        "gap_pct": 0.0,
+        "hit_count": 30,
+        "best_seed": 0,
+        "best_metrics": {
+          "objective": 479.5868718962522,
+          "fixed_cost": 226.44,
+          "vehicle_cost": 190.0,
+          "transport_cost": 63.14687189625221,
+          "travel_distance": 28.70312358920555,
+          "penalty": 0.0,
+          "lateness": 0.0,
+          "vehicle_overload": 0.0,
+          "facility_overload": 0,
+          "overtime": 0.0,
+          "missing_count": 0,
+          "duplicate_count": 0,
+          "open_facilities": 2,
+          "routes": 5,
+          "feasible": true,
+          "route_records": [
+            {
+              "facility_id": 0,
+              "customers": [
+                0
+              ],
+              "distance": 1.0071002984695374,
+              "duration": 103.27326252020794,
+              "lateness": 0.0,
+              "wait": 28.726737479792064,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 616.7267374797921
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2,
+                6
+              ],
+              "distance": 5.6569802062490275,
+              "duration": 138.69395524135098,
+              "lateness": 0.0,
+              "wait": 25.389876719835456,
+              "load": 7,
+              "capacity_slack": 1,
+              "time_slack": 581.306044758649
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                8,
+                9,
+                1
+              ],
+              "distance": 12.050011631975895,
+              "duration": 160.60039397660591,
+              "lateness": 0.0,
+              "wait": 5.1126930966644295,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 559.3996060233941
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                4,
+                5
+              ],
+              "distance": 6.2061016553648845,
+              "duration": 141.2837231433881,
+              "lateness": 0.0,
+              "wait": 17.591151814822638,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 578.7162768566119
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                3,
+                10,
+                7
+              ],
+              "distance": 3.782929797146205,
+              "duration": 160.97107539081628,
+              "lateness": 0.0,
+              "wait": 25.405667189460814,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 559.0289246091837
+            }
+          ],
+          "missing_customers": [],
+          "duplicate_customers": [],
+          "facility_usage": {
+            "0": 21,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 16
+          }
+        },
+        "best_solution": {
+          "routes": [
+            {
+              "facility_id": 0,
+              "customers": [
+                0
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2,
+                6
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                8,
+                9,
+                1
+              ]
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                4,
+                5
+              ]
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                3,
+                10,
+                7
+              ]
+            }
+          ]
+        }
+      },
+      "1200": {
+        "iterations": 1200,
+        "seeds": 30,
+        "best_objective": 479.5868718962522,
+        "gap_pct": 0.0,
+        "hit_count": 30,
+        "best_seed": 0,
+        "best_metrics": {
+          "objective": 479.5868718962522,
+          "fixed_cost": 226.44,
+          "vehicle_cost": 190.0,
+          "transport_cost": 63.14687189625221,
+          "travel_distance": 28.70312358920555,
+          "penalty": 0.0,
+          "lateness": 0.0,
+          "vehicle_overload": 0.0,
+          "facility_overload": 0,
+          "overtime": 0.0,
+          "missing_count": 0,
+          "duplicate_count": 0,
+          "open_facilities": 2,
+          "routes": 5,
+          "feasible": true,
+          "route_records": [
+            {
+              "facility_id": 0,
+              "customers": [
+                0
+              ],
+              "distance": 1.0071002984695374,
+              "duration": 103.27326252020794,
+              "lateness": 0.0,
+              "wait": 28.726737479792064,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 616.7267374797921
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2,
+                6
+              ],
+              "distance": 5.6569802062490275,
+              "duration": 138.69395524135098,
+              "lateness": 0.0,
+              "wait": 25.389876719835456,
+              "load": 7,
+              "capacity_slack": 1,
+              "time_slack": 581.306044758649
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                8,
+                9,
+                1
+              ],
+              "distance": 12.050011631975895,
+              "duration": 160.60039397660591,
+              "lateness": 0.0,
+              "wait": 5.1126930966644295,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 559.3996060233941
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                4,
+                5
+              ],
+              "distance": 6.2061016553648845,
+              "duration": 141.2837231433881,
+              "lateness": 0.0,
+              "wait": 17.591151814822638,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 578.7162768566119
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                3,
+                10,
+                7
+              ],
+              "distance": 3.782929797146205,
+              "duration": 160.97107539081628,
+              "lateness": 0.0,
+              "wait": 25.405667189460814,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 559.0289246091837
+            }
+          ],
+          "missing_customers": [],
+          "duplicate_customers": [],
+          "facility_usage": {
+            "0": 21,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 16
+          }
+        },
+        "best_solution": {
+          "routes": [
+            {
+              "facility_id": 0,
+              "customers": [
+                0
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2,
+                6
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                8,
+                9,
+                1
+              ]
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                4,
+                5
+              ]
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                3,
+                10,
+                7
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "RL-ALNS": {
+      "350": {
+        "iterations": 350,
+        "seeds": 12,
+        "best_objective": 479.5868718962522,
+        "gap_pct": 0.0,
+        "hit_count": 12,
+        "best_seed": 0,
+        "best_metrics": {
+          "objective": 479.5868718962522,
+          "fixed_cost": 226.44,
+          "vehicle_cost": 190.0,
+          "transport_cost": 63.14687189625221,
+          "travel_distance": 28.70312358920555,
+          "penalty": 0.0,
+          "lateness": 0.0,
+          "vehicle_overload": 0.0,
+          "facility_overload": 0,
+          "overtime": 0.0,
+          "missing_count": 0,
+          "duplicate_count": 0,
+          "open_facilities": 2,
+          "routes": 5,
+          "feasible": true,
+          "route_records": [
+            {
+              "facility_id": 0,
+              "customers": [
+                0
+              ],
+              "distance": 1.0071002984695374,
+              "duration": 103.27326252020794,
+              "lateness": 0.0,
+              "wait": 28.726737479792064,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 616.7267374797921
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2,
+                6
+              ],
+              "distance": 5.6569802062490275,
+              "duration": 138.69395524135098,
+              "lateness": 0.0,
+              "wait": 25.389876719835456,
+              "load": 7,
+              "capacity_slack": 1,
+              "time_slack": 581.306044758649
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                8,
+                9,
+                1
+              ],
+              "distance": 12.050011631975895,
+              "duration": 160.60039397660591,
+              "lateness": 0.0,
+              "wait": 5.1126930966644295,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 559.3996060233941
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                4,
+                5
+              ],
+              "distance": 6.2061016553648845,
+              "duration": 141.2837231433881,
+              "lateness": 0.0,
+              "wait": 17.591151814822638,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 578.7162768566119
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                3,
+                10,
+                7
+              ],
+              "distance": 3.782929797146205,
+              "duration": 160.97107539081628,
+              "lateness": 0.0,
+              "wait": 25.405667189460814,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 559.0289246091837
+            }
+          ],
+          "missing_customers": [],
+          "duplicate_customers": [],
+          "facility_usage": {
+            "0": 21,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 16
+          }
+        },
+        "best_solution": {
+          "routes": [
+            {
+              "facility_id": 0,
+              "customers": [
+                0
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2,
+                6
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                8,
+                9,
+                1
+              ]
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                4,
+                5
+              ]
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                3,
+                10,
+                7
+              ]
+            }
+          ]
+        }
+      },
+      "1200": {
+        "iterations": 1200,
+        "seeds": 12,
+        "best_objective": 479.5868718962522,
+        "gap_pct": 0.0,
+        "hit_count": 12,
+        "best_seed": 0,
+        "best_metrics": {
+          "objective": 479.5868718962522,
+          "fixed_cost": 226.44,
+          "vehicle_cost": 190.0,
+          "transport_cost": 63.14687189625221,
+          "travel_distance": 28.70312358920555,
+          "penalty": 0.0,
+          "lateness": 0.0,
+          "vehicle_overload": 0.0,
+          "facility_overload": 0,
+          "overtime": 0.0,
+          "missing_count": 0,
+          "duplicate_count": 0,
+          "open_facilities": 2,
+          "routes": 5,
+          "feasible": true,
+          "route_records": [
+            {
+              "facility_id": 0,
+              "customers": [
+                0
+              ],
+              "distance": 1.0071002984695374,
+              "duration": 103.27326252020794,
+              "lateness": 0.0,
+              "wait": 28.726737479792064,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 616.7267374797921
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2,
+                6
+              ],
+              "distance": 5.6569802062490275,
+              "duration": 138.69395524135098,
+              "lateness": 0.0,
+              "wait": 25.389876719835456,
+              "load": 7,
+              "capacity_slack": 1,
+              "time_slack": 581.306044758649
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                8,
+                9,
+                1
+              ],
+              "distance": 12.050011631975895,
+              "duration": 160.60039397660591,
+              "lateness": 0.0,
+              "wait": 5.1126930966644295,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 559.3996060233941
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                4,
+                5
+              ],
+              "distance": 6.2061016553648845,
+              "duration": 141.2837231433881,
+              "lateness": 0.0,
+              "wait": 17.591151814822638,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 578.7162768566119
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                3,
+                10,
+                7
+              ],
+              "distance": 3.782929797146205,
+              "duration": 160.97107539081628,
+              "lateness": 0.0,
+              "wait": 25.405667189460814,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 559.0289246091837
+            }
+          ],
+          "missing_customers": [],
+          "duplicate_customers": [],
+          "facility_usage": {
+            "0": 21,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 16
+          }
+        },
+        "best_solution": {
+          "routes": [
+            {
+              "facility_id": 0,
+              "customers": [
+                0
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2,
+                6
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                8,
+                9,
+                1
+              ]
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                4,
+                5
+              ]
+            },
+            {
+              "facility_id": 5,
+              "customers": [
+                3,
+                10,
+                7
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "QZ-exact-1": {
+    "exact": {
+      "instance": "QZ-exact-1",
+      "algorithm": "CPLEX-Exact",
+      "status": "OPTIMAL_SOLUTION",
+      "elapsed_seconds": 0.02849721908569336,
+      "best_metrics": {
+        "objective": 615.5180251468129,
+        "fixed_cost": 252.69,
+        "vehicle_cost": 266.0,
+        "transport_cost": 96.82802514681286,
+        "travel_distance": 44.01273870309675,
+        "penalty": 0.0,
+        "lateness": 0.0,
+        "vehicle_overload": 0.0,
+        "facility_overload": 0,
+        "overtime": 0.0,
+        "missing_count": 0,
+        "duplicate_count": 0,
+        "open_facilities": 2,
+        "routes": 7,
+        "feasible": true,
+        "route_records": [
+          {
+            "facility_id": 0,
+            "customers": [
+              1
+            ],
+            "distance": 1.1314520453268535,
+            "duration": 59.86095731461228,
+            "lateness": 0.0,
+            "wait": 0.0,
+            "load": 6,
+            "capacity_slack": 2,
+            "time_slack": 660.1390426853877
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              2
+            ],
+            "distance": 2.442008356918392,
+            "duration": 172.08739627981822,
+            "lateness": 0.0,
+            "wait": 100.91260372018178,
+            "load": 6,
+            "capacity_slack": 2,
+            "time_slack": 547.9126037201818
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              3,
+              5
+            ],
+            "distance": 11.945856860745057,
+            "duration": 162.24089522382633,
+            "lateness": 0.0,
+            "wait": 34.675222714480014,
+            "load": 8,
+            "capacity_slack": 0,
+            "time_slack": 557.7591047761737
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              11,
+              7
+            ],
+            "distance": 10.586954192100238,
+            "duration": 137.42816443026925,
+            "lateness": 0.0,
+            "wait": 18.109031923378097,
+            "load": 8,
+            "capacity_slack": 0,
+            "time_slack": 582.5718355697308
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              9,
+              10
+            ],
+            "distance": 4.218105086271278,
+            "duration": 243.56403092793892,
+            "lateness": 0.0,
+            "wait": 131.89825092408148,
+            "load": 8,
+            "capacity_slack": 0,
+            "time_slack": 476.4359690720611
+          },
+          {
+            "facility_id": 1,
+            "customers": [
+              8,
+              0
+            ],
+            "distance": 8.316338430711037,
+            "duration": 225.91964537640774,
+            "lateness": 0.0,
+            "wait": 112.89118963018132,
+            "load": 8,
+            "capacity_slack": 0,
+            "time_slack": 494.08035462359226
+          },
+          {
+            "facility_id": 1,
+            "customers": [
+              4,
+              6
+            ],
+            "distance": 5.372023731023894,
+            "duration": 232.3143220549797,
+            "lateness": 0.0,
+            "wait": 132.73077633510502,
+            "load": 7,
+            "capacity_slack": 1,
+            "time_slack": 487.6856779450203
+          }
+        ],
+        "missing_customers": [],
+        "duplicate_customers": [],
+        "facility_usage": {
+          "0": 36,
+          "1": 15,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        }
+      },
+      "best_solution": {
+        "routes": [
+          {
+            "facility_id": 0,
+            "customers": [
+              1
+            ]
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              2
+            ]
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              3,
+              5
+            ]
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              11,
+              7
+            ]
+          },
+          {
+            "facility_id": 0,
+            "customers": [
+              9,
+              10
+            ]
+          },
+          {
+            "facility_id": 1,
+            "customers": [
+              8,
+              0
+            ]
+          },
+          {
+            "facility_id": 1,
+            "customers": [
+              4,
+              6
+            ]
+          }
+        ]
+      },
+      "route_pool_size": 275,
+      "selected_route_ids": [
+        "r_0_1",
+        "r_0_2",
+        "r_0_24",
+        "r_0_39",
+        "r_0_42",
+        "r_1_15",
+        "r_1_31"
+      ]
+    },
+    "current_candidate_reachability": {
+      "facility_limit": null,
+      "reachable": true,
+      "blocked_customer_count": 0,
+      "blocked_customers": []
+    },
+    "legacy_limit4_reachability": {
+      "facility_limit": 4,
+      "reachable": true,
+      "blocked_customer_count": 0,
+      "blocked_customers": []
+    },
+    "ALNS": {
+      "280": {
+        "iterations": 280,
+        "seeds": 30,
+        "best_objective": 615.5180251468129,
+        "gap_pct": 0.0,
+        "hit_count": 30,
+        "best_seed": 0,
+        "best_metrics": {
+          "objective": 615.5180251468129,
+          "fixed_cost": 252.69,
+          "vehicle_cost": 266.0,
+          "transport_cost": 96.82802514681286,
+          "travel_distance": 44.01273870309675,
+          "penalty": 0.0,
+          "lateness": 0.0,
+          "vehicle_overload": 0.0,
+          "facility_overload": 0,
+          "overtime": 0.0,
+          "missing_count": 0,
+          "duplicate_count": 0,
+          "open_facilities": 2,
+          "routes": 7,
+          "feasible": true,
+          "route_records": [
+            {
+              "facility_id": 0,
+              "customers": [
+                1
+              ],
+              "distance": 1.1314520453268535,
+              "duration": 59.86095731461228,
+              "lateness": 0.0,
+              "wait": 0.0,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 660.1390426853877
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2
+              ],
+              "distance": 2.442008356918392,
+              "duration": 172.08739627981822,
+              "lateness": 0.0,
+              "wait": 100.91260372018178,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 547.9126037201818
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                3,
+                5
+              ],
+              "distance": 11.945856860745057,
+              "duration": 162.24089522382633,
+              "lateness": 0.0,
+              "wait": 34.675222714480014,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 557.7591047761737
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                11,
+                7
+              ],
+              "distance": 10.586954192100238,
+              "duration": 137.42816443026925,
+              "lateness": 0.0,
+              "wait": 18.109031923378097,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 582.5718355697308
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                9,
+                10
+              ],
+              "distance": 4.218105086271278,
+              "duration": 243.56403092793892,
+              "lateness": 0.0,
+              "wait": 131.89825092408148,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 476.4359690720611
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                8,
+                0
+              ],
+              "distance": 8.316338430711037,
+              "duration": 225.91964537640774,
+              "lateness": 0.0,
+              "wait": 112.89118963018132,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 494.08035462359226
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                4,
+                6
+              ],
+              "distance": 5.372023731023894,
+              "duration": 232.3143220549797,
+              "lateness": 0.0,
+              "wait": 132.73077633510502,
+              "load": 7,
+              "capacity_slack": 1,
+              "time_slack": 487.6856779450203
+            }
+          ],
+          "missing_customers": [],
+          "duplicate_customers": [],
+          "facility_usage": {
+            "0": 36,
+            "1": 15,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "best_solution": {
+          "routes": [
+            {
+              "facility_id": 0,
+              "customers": [
+                1
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                3,
+                5
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                11,
+                7
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                9,
+                10
+              ]
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                8,
+                0
+              ]
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                4,
+                6
+              ]
+            }
+          ]
+        }
+      },
+      "1200": {
+        "iterations": 1200,
+        "seeds": 30,
+        "best_objective": 615.5180251468129,
+        "gap_pct": 0.0,
+        "hit_count": 30,
+        "best_seed": 0,
+        "best_metrics": {
+          "objective": 615.5180251468129,
+          "fixed_cost": 252.69,
+          "vehicle_cost": 266.0,
+          "transport_cost": 96.82802514681286,
+          "travel_distance": 44.01273870309675,
+          "penalty": 0.0,
+          "lateness": 0.0,
+          "vehicle_overload": 0.0,
+          "facility_overload": 0,
+          "overtime": 0.0,
+          "missing_count": 0,
+          "duplicate_count": 0,
+          "open_facilities": 2,
+          "routes": 7,
+          "feasible": true,
+          "route_records": [
+            {
+              "facility_id": 0,
+              "customers": [
+                1
+              ],
+              "distance": 1.1314520453268535,
+              "duration": 59.86095731461228,
+              "lateness": 0.0,
+              "wait": 0.0,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 660.1390426853877
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2
+              ],
+              "distance": 2.442008356918392,
+              "duration": 172.08739627981822,
+              "lateness": 0.0,
+              "wait": 100.91260372018178,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 547.9126037201818
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                3,
+                5
+              ],
+              "distance": 11.945856860745057,
+              "duration": 162.24089522382633,
+              "lateness": 0.0,
+              "wait": 34.675222714480014,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 557.7591047761737
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                11,
+                7
+              ],
+              "distance": 10.586954192100238,
+              "duration": 137.42816443026925,
+              "lateness": 0.0,
+              "wait": 18.109031923378097,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 582.5718355697308
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                9,
+                10
+              ],
+              "distance": 4.218105086271278,
+              "duration": 243.56403092793892,
+              "lateness": 0.0,
+              "wait": 131.89825092408148,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 476.4359690720611
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                8,
+                0
+              ],
+              "distance": 8.316338430711037,
+              "duration": 225.91964537640774,
+              "lateness": 0.0,
+              "wait": 112.89118963018132,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 494.08035462359226
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                4,
+                6
+              ],
+              "distance": 5.372023731023894,
+              "duration": 232.3143220549797,
+              "lateness": 0.0,
+              "wait": 132.73077633510502,
+              "load": 7,
+              "capacity_slack": 1,
+              "time_slack": 487.6856779450203
+            }
+          ],
+          "missing_customers": [],
+          "duplicate_customers": [],
+          "facility_usage": {
+            "0": 36,
+            "1": 15,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "best_solution": {
+          "routes": [
+            {
+              "facility_id": 0,
+              "customers": [
+                1
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                3,
+                5
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                11,
+                7
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                9,
+                10
+              ]
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                8,
+                0
+              ]
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                4,
+                6
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "RL-ALNS": {
+      "350": {
+        "iterations": 350,
+        "seeds": 12,
+        "best_objective": 615.5180251468129,
+        "gap_pct": 0.0,
+        "hit_count": 12,
+        "best_seed": 0,
+        "best_metrics": {
+          "objective": 615.5180251468129,
+          "fixed_cost": 252.69,
+          "vehicle_cost": 266.0,
+          "transport_cost": 96.82802514681286,
+          "travel_distance": 44.01273870309675,
+          "penalty": 0.0,
+          "lateness": 0.0,
+          "vehicle_overload": 0.0,
+          "facility_overload": 0,
+          "overtime": 0.0,
+          "missing_count": 0,
+          "duplicate_count": 0,
+          "open_facilities": 2,
+          "routes": 7,
+          "feasible": true,
+          "route_records": [
+            {
+              "facility_id": 0,
+              "customers": [
+                1
+              ],
+              "distance": 1.1314520453268535,
+              "duration": 59.86095731461228,
+              "lateness": 0.0,
+              "wait": 0.0,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 660.1390426853877
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2
+              ],
+              "distance": 2.442008356918392,
+              "duration": 172.08739627981822,
+              "lateness": 0.0,
+              "wait": 100.91260372018178,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 547.9126037201818
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                3,
+                5
+              ],
+              "distance": 11.945856860745057,
+              "duration": 162.24089522382633,
+              "lateness": 0.0,
+              "wait": 34.675222714480014,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 557.7591047761737
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                11,
+                7
+              ],
+              "distance": 10.586954192100238,
+              "duration": 137.42816443026925,
+              "lateness": 0.0,
+              "wait": 18.109031923378097,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 582.5718355697308
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                9,
+                10
+              ],
+              "distance": 4.218105086271278,
+              "duration": 243.56403092793892,
+              "lateness": 0.0,
+              "wait": 131.89825092408148,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 476.4359690720611
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                8,
+                0
+              ],
+              "distance": 8.316338430711037,
+              "duration": 225.91964537640774,
+              "lateness": 0.0,
+              "wait": 112.89118963018132,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 494.08035462359226
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                4,
+                6
+              ],
+              "distance": 5.372023731023894,
+              "duration": 232.3143220549797,
+              "lateness": 0.0,
+              "wait": 132.73077633510502,
+              "load": 7,
+              "capacity_slack": 1,
+              "time_slack": 487.6856779450203
+            }
+          ],
+          "missing_customers": [],
+          "duplicate_customers": [],
+          "facility_usage": {
+            "0": 36,
+            "1": 15,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "best_solution": {
+          "routes": [
+            {
+              "facility_id": 0,
+              "customers": [
+                1
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                3,
+                5
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                11,
+                7
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                9,
+                10
+              ]
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                8,
+                0
+              ]
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                4,
+                6
+              ]
+            }
+          ]
+        }
+      },
+      "1200": {
+        "iterations": 1200,
+        "seeds": 12,
+        "best_objective": 615.5180251468129,
+        "gap_pct": 0.0,
+        "hit_count": 12,
+        "best_seed": 0,
+        "best_metrics": {
+          "objective": 615.5180251468129,
+          "fixed_cost": 252.69,
+          "vehicle_cost": 266.0,
+          "transport_cost": 96.82802514681286,
+          "travel_distance": 44.01273870309675,
+          "penalty": 0.0,
+          "lateness": 0.0,
+          "vehicle_overload": 0.0,
+          "facility_overload": 0,
+          "overtime": 0.0,
+          "missing_count": 0,
+          "duplicate_count": 0,
+          "open_facilities": 2,
+          "routes": 7,
+          "feasible": true,
+          "route_records": [
+            {
+              "facility_id": 0,
+              "customers": [
+                1
+              ],
+              "distance": 1.1314520453268535,
+              "duration": 59.86095731461228,
+              "lateness": 0.0,
+              "wait": 0.0,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 660.1390426853877
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2
+              ],
+              "distance": 2.442008356918392,
+              "duration": 172.08739627981822,
+              "lateness": 0.0,
+              "wait": 100.91260372018178,
+              "load": 6,
+              "capacity_slack": 2,
+              "time_slack": 547.9126037201818
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                3,
+                5
+              ],
+              "distance": 11.945856860745057,
+              "duration": 162.24089522382633,
+              "lateness": 0.0,
+              "wait": 34.675222714480014,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 557.7591047761737
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                11,
+                7
+              ],
+              "distance": 10.586954192100238,
+              "duration": 137.42816443026925,
+              "lateness": 0.0,
+              "wait": 18.109031923378097,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 582.5718355697308
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                9,
+                10
+              ],
+              "distance": 4.218105086271278,
+              "duration": 243.56403092793892,
+              "lateness": 0.0,
+              "wait": 131.89825092408148,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 476.4359690720611
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                8,
+                0
+              ],
+              "distance": 8.316338430711037,
+              "duration": 225.91964537640774,
+              "lateness": 0.0,
+              "wait": 112.89118963018132,
+              "load": 8,
+              "capacity_slack": 0,
+              "time_slack": 494.08035462359226
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                4,
+                6
+              ],
+              "distance": 5.372023731023894,
+              "duration": 232.3143220549797,
+              "lateness": 0.0,
+              "wait": 132.73077633510502,
+              "load": 7,
+              "capacity_slack": 1,
+              "time_slack": 487.6856779450203
+            }
+          ],
+          "missing_customers": [],
+          "duplicate_customers": [],
+          "facility_usage": {
+            "0": 36,
+            "1": 15,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "best_solution": {
+          "routes": [
+            {
+              "facility_id": 0,
+              "customers": [
+                1
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                2
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                3,
+                5
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                11,
+                7
+              ]
+            },
+            {
+              "facility_id": 0,
+              "customers": [
+                9,
+                10
+              ]
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                8,
+                0
+              ]
+            },
+            {
+              "facility_id": 1,
+              "customers": [
+                4,
+                6
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

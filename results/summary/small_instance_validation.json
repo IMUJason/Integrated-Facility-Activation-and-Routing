@@ -1,0 +1,191 @@
+{
+  "instance": "QZ-exact-1",
+  "algorithm": "CPLEX-Exact",
+  "status": "OPTIMAL_SOLUTION",
+  "elapsed_seconds": 0.0480804443359375,
+  "best_metrics": {
+    "objective": 684.0317936620397,
+    "fixed_cost": 316.79,
+    "vehicle_cost": 266.0,
+    "transport_cost": 101.24179366203977,
+    "travel_distance": 46.01899711910899,
+    "penalty": 0.0,
+    "lateness": 0.0,
+    "vehicle_overload": 0.0,
+    "facility_overload": 0,
+    "overtime": 0.0,
+    "missing_count": 0,
+    "duplicate_count": 0,
+    "open_facilities": 3,
+    "routes": 7,
+    "feasible": true,
+    "route_records": [
+      {
+        "facility_id": 0,
+        "customers": [
+          1
+        ],
+        "distance": 1.1314520453268535,
+        "duration": 59.86095731461228,
+        "lateness": 0.0,
+        "wait": 0.0,
+        "load": 6,
+        "capacity_slack": 2,
+        "time_slack": 660.1390426853877
+      },
+      {
+        "facility_id": 0,
+        "customers": [
+          2
+        ],
+        "distance": 2.442008356918392,
+        "duration": 172.08739627981822,
+        "lateness": 0.0,
+        "wait": 100.91260372018178,
+        "load": 6,
+        "capacity_slack": 2,
+        "time_slack": 547.9126037201818
+      },
+      {
+        "facility_id": 0,
+        "customers": [
+          0,
+          9
+        ],
+        "distance": 10.797758742270904,
+        "duration": 200.10174907591852,
+        "lateness": 0.0,
+        "wait": 72.79884482760485,
+        "load": 8,
+        "capacity_slack": 0,
+        "time_slack": 519.8982509240815
+      },
+      {
+        "facility_id": 0,
+        "customers": [
+          6,
+          10
+        ],
+        "distance": 5.29294287639365,
+        "duration": 138.94529010909525,
+        "lateness": 0.0,
+        "wait": 37.56170597878554,
+        "load": 7,
+        "capacity_slack": 1,
+        "time_slack": 581.0547098909047
+      },
+      {
+        "facility_id": 0,
+        "customers": [
+          11,
+          7
+        ],
+        "distance": 10.586954192100238,
+        "duration": 137.42816443026925,
+        "lateness": 0.0,
+        "wait": 18.109031923378097,
+        "load": 8,
+        "capacity_slack": 0,
+        "time_slack": 582.5718355697308
+      },
+      {
+        "facility_id": 1,
+        "customers": [
+          4,
+          8
+        ],
+        "distance": 5.775481698312404,
+        "duration": 238.33449434369493,
+        "lateness": 0.0,
+        "wait": 132.73077633510502,
+        "load": 8,
+        "capacity_slack": 0,
+        "time_slack": 481.6655056563051
+      },
+      {
+        "facility_id": 4,
+        "customers": [
+          3,
+          5
+        ],
+        "distance": 9.992399207786544,
+        "duration": 158.5493691071913,
+        "lateness": 0.0,
+        "wait": 39.13708509050582,
+        "load": 8,
+        "capacity_slack": 0,
+        "time_slack": 561.4506308928087
+      }
+    ],
+    "missing_customers": [],
+    "duplicate_customers": [],
+    "facility_usage": {
+      "0": 35,
+      "1": 8,
+      "2": 0,
+      "3": 0,
+      "4": 8
+    }
+  },
+  "best_solution": {
+    "routes": [
+      {
+        "facility_id": 0,
+        "customers": [
+          1
+        ]
+      },
+      {
+        "facility_id": 0,
+        "customers": [
+          2
+        ]
+      },
+      {
+        "facility_id": 0,
+        "customers": [
+          0,
+          9
+        ]
+      },
+      {
+        "facility_id": 0,
+        "customers": [
+          6,
+          10
+        ]
+      },
+      {
+        "facility_id": 0,
+        "customers": [
+          11,
+          7
+        ]
+      },
+      {
+        "facility_id": 1,
+        "customers": [
+          4,
+          8
+        ]
+      },
+      {
+        "facility_id": 4,
+        "customers": [
+          3,
+          5
+        ]
+      }
+    ]
+  },
+  "route_pool_size": 275,
+  "selected_route_ids": [
+    "r_0_1",
+    "r_0_2",
+    "r_0_16",
+    "r_0_37",
+    "r_0_39",
+    "r_1_32",
+    "r_4_24"
+  ]
+}
